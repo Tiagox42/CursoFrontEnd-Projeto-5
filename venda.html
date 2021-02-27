@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
@@ -9,33 +10,34 @@
     <title>Projeto 05</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header style="border-bottom: 3px solid #EB2D2D;">
         <div class="container">
-        <div class="logo">
-            <img src="img/logo.jpg" alt="">
+            <div class="logo">
+                <img src="img/logo.jpg" alt="">
+            </div>
+
+            <nav class="desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a style="color: #EB2D2D;" href="venda.html">Venda</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+
+            <nav class="mobile">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a style="color: #EB2D2D;" href="venda.html">Venda</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="clear"></div>
         </div>
-
-        <nav class="desktop">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a style="color: #EB2D2D;" href="venda.html">Venda</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Contato</a></li>
-            </ul>
-        </nav>
-
-        <nav class="mobile">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a style="color: #EB2D2D;" href="venda.html">Venda</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Contato</a></li>
-            </ul>
-        </nav>
-
-        <div class="clear"></div>
-    </div>
 
     </header>
 
@@ -47,53 +49,120 @@
 
         <div class="content-venda">
             <div class="container">
-            <div class="sidebar">
-                <div class="search1">
-                    <h2>Filtre por preço:</h2>
-                    <div class="barra-preco">
-                        <div class="barra-preco-fill"></div>
-                        <div class="pointer-barra"></div>
+                <div class="sidebar">
+                    <div class="search1">
+                        <h2>Filtre por preço:</h2>
+                        <div class="barra-preco">
+                            <div class="barra-preco-fill"></div>
+                            <div class="pointer-barra"></div>
+                        </div>
+                        <div class="valor-pesquisa">
+                            <p>R$0,00</p>
+                            <p>R$70.000,00</p>
+                            <div class="clear"></div>
+                        </div>
                     </div>
-                    <div class="valor-pesquisa">
-                        <p>R$0,00</p>
-                        <p>R$70.000,00</p>
-                        <div class="clear"></div>
+
+                    <div class="search2">
+                        <h2>Filtre por ano:</h2>
+                        <form action="">
+                            <div class="form-venda-wraper">
+                                <input type="checkbox" id="item1">
+                                <label for="item1">
+                                    <div class="circle"></div>
+                                </label>
+                                <span>Todas as décadas</span>
+                            </div>
+
+                            <div class="form-venda-wraper">
+                                <input type="checkbox" id="item2">
+                                <label for="item2">
+                                    <div class="circle"></div>
+                                </label>
+                                <span>1960 - 1970</span>
+                            </div>
+
+                            <div class="form-venda-wraper">
+                                <input type="checkbox" id="item3">
+                                <label for="item3">
+                                    <div class="circle"></div>
+                                </label>
+                                <span>1971 - 1990</span>
+                            </div>
+
+                            <div class="form-venda-wraper">
+                                <input type="checkbox" id="item4">
+                                <label for="item4">
+                                    <div class="circle"></div>
+                                </label>
+                                <span>1991 - 2000</span>
+                            </div>
+                        </form>
                     </div>
                 </div>
 
-                <div class="search2">
-                    <h2>Filtre por ano:</h2>
-                    <form action="">
-                    <div class="form-venda-wraper">
-                        <input type="checkbox" id="item1">
-                        <label for="item1"></label>
-                        <span>Todas as décadas</span>
+                <div class="vitrine-venda">
+                    <div class="vitrine-destaque">
+                        <div style="background-image: url('img/carro1.jpg');" class="carro-img"></div>
+                        <div class="info-carro">
+                            <h2>Fiat Gol Belive Special Edition</h2>
+                            <p>5.0 10v, Ar, 6p, Automatico 2077</p>
+                            <a class="btn1" href="">Mais Detalhes</a>
+                        </div>
                     </div>
 
-                    <div class="form-venda-wraper">
-                        <input type="checkbox" id="item2">
-                        <label for="item2"></label>
-                        <span>1960 - 1970</span>
+                    <div class="vitrine-destaque">
+                        <div style="background-image: url('img/carro1.jpg');" class="carro-img"></div>
+                        <div class="info-carro">
+                            <h2>Fiat Gol Belive Special Edition</h2>
+                            <p>5.0 10v, Ar, 6p, Automatico 2077</p>
+                            <a class="btn1" href="">Mais Detalhes</a>
+                        </div>
                     </div>
 
-                    <div class="form-venda-wraper">
-                        <input type="checkbox" id="item2">
-                        <label for="item2"></label>
-                        <span>1971 - 1990</span>
+                    <div class="vitrine-destaque">
+                        <div style="background-image: url('img/carro1.jpg');" class="carro-img"></div>
+                        <div class="info-carro">
+                            <h2>Fiat Gol Belive Special Edition</h2>
+                            <p>5.0 10v, Ar, 6p, Automatico 2077</p>
+                            <a class="btn1" href="">Mais Detalhes</a>
+                        </div>
                     </div>
 
-                    <div class="form-venda-wraper">
-                        <input type="checkbox" id="item2">
-                        <label for="item2"></label>
-                        <span>1991 - 2000</span>
+                    <div class="vitrine-destaque">
+                        <div style="background-image: url('img/carro1.jpg');" class="carro-img"></div>
+                        <div class="info-carro">
+                            <h2>Fiat Gol Belive Special Edition</h2>
+                            <p>5.0 10v, Ar, 6p, Automatico 2077</p>
+                            <a class="btn1" href="">Mais Detalhes</a>
+                        </div>
                     </div>
-                    </form>
+
+                    <div class="vitrine-destaque">
+                        <div style="background-image: url('img/carro1.jpg');" class="carro-img"></div>
+                        <div class="info-carro">
+                            <h2>Fiat Gol Belive Special Edition</h2>
+                            <p>5.0 10v, Ar, 6p, Automatico 2077</p>
+                            <a class="btn1" href="">Mais Detalhes</a>
+                        </div>
+                    </div>
+
+                    <div class="vitrine-destaque">
+                        <div style="background-image: url('img/carro1.jpg');" class="carro-img"></div>
+                        <div class="info-carro">
+                            <h2>Fiat Gol Belive Special Edition</h2>
+                            <p>5.0 10v, Ar, 6p, Automatico 2077</p>
+                            <a class="btn1" href="">Mais Detalhes</a>
+                        </div>
+                    </div>
+
+
+                    </div>
+
+                    <div class="clear"></div>
                 </div>
 
             </div>
-        </div>
-
-        </div>
 
     </section>
 
@@ -114,4 +183,5 @@
     </footer>
 
 </body>
+
 </html>

@@ -345,6 +345,7 @@ section.contato input[type=submit]{
 }
 
 footer{
+    margin-top: 20px;
     padding: 40px 2%;
     background: #252525;
 }
@@ -622,6 +623,60 @@ section.venda-single .container{
     background-size: cover;
 }
 
+section.sobre{
+    min-height: 90%;
+    padding: 60px 2% 20px 2%;
+}
+
+section.sobre .container{
+    margin-top: 30px;
+    max-width: 840px;
+}
+
+section.sobre .img-destaque-sobre{
+    width: 100%;
+    padding-top: 60%;
+    background-image: url('../img/oficina.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+section.sobre .descricao-autor{
+    margin-top: 20px;
+}
+
+.descricao-autor h2{
+    font-size: 24px;
+}
+
+.descricao-autor p{
+    line-height: 25px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.descricao-autor2{
+    margin-top: 40px;
+}
+
+.img-small{
+    width: 30%;
+    padding-top: 30%;
+    margin-top: -40px;
+    float: left;
+    background-image: url('../img/mecanico.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.descricao-autor2 p{
+    float: left;
+    width: 70%;
+    line-height: 25px;
+    padding: 15px;
+}
 
 @media screen and (max-width: 1150px){
 
@@ -762,6 +817,10 @@ section.venda-single .container{
         background-image: url('../img/box-text.png');
         background-size: 100% 100%;
     }
+
+    .img-small{
+        margin-top: -20px;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -791,6 +850,10 @@ section.venda-single .container{
     .text-banner .text-banner-single:nth-of-type(3){
         width: 120px;
     }
+
+    .img-small{
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 580px){
@@ -813,6 +876,18 @@ section.venda-single .container{
 
     .vitrine-destaque a{
         display: inline-block;
+    }
+
+    .img-small{
+        margin-top: -80px;
+        width: 100%;
+        padding-top: 100%;
+    }
+
+    .descricao-autor2 p{
+        width: 100%;
+        padding: 20px 0;
+        margin-top: -50px;
     }
 
 }
